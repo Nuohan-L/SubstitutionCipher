@@ -35,8 +35,6 @@ string encrypt(string message) {
 string decrypt(string encrypted_message) {
     string alphabet{ "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" };
     string key{ "XFQNMLKJHGlkjwzsedcTYUIOPDCVBxfqgavbnGAWZSEmhgtyuiop1029384756" };
-    string numbers{ "0123456789" };
-    string number_key{ "1029384756" };
     string decrypted_message{};
 
     int index{};
